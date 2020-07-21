@@ -1,0 +1,6 @@
+Data Peserta Sanbercode Bootcamp ReactJS
+1. Nama: Agny muchamad nureza
+2. Email: rezaagny@gmail.com
+3. Sistem Operasi yang digunakan: linux
+4. Akun Github: https://github.com/agnynureza/sanbercode-reactjs-0720
+5. Akun Telegram: @agnyreza
