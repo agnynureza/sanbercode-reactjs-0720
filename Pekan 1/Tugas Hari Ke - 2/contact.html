@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <title>contact</title>
+    <style type="text/css">
+        h1 {
+            text-align: center;
+        }
+
+        #back {
+            margin-top: 50px;
+        }
+
+        td {
+            vertical-align: bottom;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Hubungi Kami</h1>
+        <p><strong>Kantor: </strong> di jalan belum jadi</p>
+        <p><strong>Nomor Telepon: </strong> 08XX-XXXX</p>
+        <p><strong>Email: </strong> email@work.com</p>
+    </div>
+    <div>
+        <h1>Kirimkan Pesan</h1>
+        <form action="index.html">
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label><strong>Nama</strong></label></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label><strong>Email</strong></label></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender"><strong>Jenis Kelamin</strong></label></td>
+                        <td>
+                            <input type="radio" value="male">
+                            <label>Laki-laki</label><br>
+                            <input type="radio" value="female">
+                            <label>Perempuan</label><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="msg"><strong>Pesan Anda</strong></label></td>
+                        <td><textarea rows="5" cols="60" name="msg"></textarea></td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <input type="submit" value="Kirim">
+        </form>
+    </div>
+    <div id='back'>
+        <a href="index.html">Kembali ke Index</a>
+    </div>
+</body>
+
+</html>
