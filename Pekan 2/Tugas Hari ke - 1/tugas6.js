@@ -126,7 +126,7 @@ class Clock {
     }
 
     stop(){
-        clearInterval(timer);
+        clearInterval(this.timer);
     }
 }
 
